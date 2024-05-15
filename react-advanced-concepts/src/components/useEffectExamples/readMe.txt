@@ -1,3 +1,10 @@
+# Rules of Hooks
+-> Only call hooks from a react component function
+-> only call hooks at the top level of a component
+-> Call multiple state or effect hooks
+-> Make multiple hook calls in the same sequence
+
+
 useEffect hook: a built-in React hook best suited to perform side effects in your React components
 
 In this reading you will be introduced to the correct usage of the dependency array and the different useEffect calls that can be used to separate different concerns. You will also learn how you can clean up resources and free up memory in your useEffect logic by returning a function.
