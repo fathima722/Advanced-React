@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Rules of Hooks
+-> Only call hooks from a react component function
+-> only call hooks at the top level of a component
+-> Call multiple state or effect hooks
+-> Make multiple hook calls in the same sequence
