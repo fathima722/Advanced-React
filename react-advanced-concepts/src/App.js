@@ -1,22 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
-import MapMethod from './components/MapMethod';
-import Desserts from './components/sort/Desserts';
-import ControlledForm from './components/typesOfForms/ControlledForm';
-import Ratings from './components/typesOfForms/Ratings';
-import UserDetailsForm from './components/typesOfForms/UserDetailsForm';
-import UnControlledForm from './components/typesOfForms/UnControlledForm';
-import Root from './components/useContextExamples/Root';
-import LightDarkTheme from './components/useContextExamples/LightDarkTheme';
-import SimpleForm from './components/useStateExamples/SimpleForm';
-import GiftCardPage from './components/useStateExamples/GiftCardPage'
-import UpdateBrowserTab from './components/useEffectExamples/UpdateBrowserTab';
-import APICalls from './components/useEffectExamples/APICalls';
-import CustomerData from './components/useEffectExamples/customerData';
-import Grocery from './components/useReducerExamples/Grocery';
-import FocusInputField from './components/useRefExamples/FocusInputField';
-import CustomHook from './components/customHooks/CustomHook';
-import Day from './components/customHooks/Day';
+// import MapMethod from './components/MapMethod';
+// import Desserts from './components/sort/Desserts';
+// import ControlledForm from './components/typesOfForms/ControlledForm';
+// import Ratings from './components/typesOfForms/Ratings';
+// import UserDetailsForm from './components/typesOfForms/UserDetailsForm';
+// import UnControlledForm from './components/typesOfForms/UnControlledForm';
+// import Root from './components/useContextExamples/Root';
+// import LightDarkTheme from './components/useContextExamples/LightDarkTheme';
+// import SimpleForm from './components/useStateExamples/SimpleForm';
+// import GiftCardPage from './components/useStateExamples/GiftCardPage'
+// import UpdateBrowserTab from './components/useEffectExamples/UpdateBrowserTab';
+// import APICalls from './components/useEffectExamples/APICalls';
+// import CustomerData from './components/useEffectExamples/customerData';
+// import Grocery from './components/useReducerExamples/Grocery';
+// import FocusInputField from './components/useRefExamples/FocusInputField';
+// import CustomHook from './components/customHooks/CustomHook';
+// import Day from './components/customHooks/Day';
+// import ManipulateChildren from './components/JSXDeepDive/ManipulateChildren'
+import RadioButtons from './components/JSXDeepDive/RadioButtons';
+import RenderProps from './components/JSXDeepDive/RenderProps';
 
 function App() {
   return (
@@ -31,6 +34,9 @@ function App() {
         >
           Learn React
         </a>
+        {/* <RadioButtons/> */}
+        <RenderProps/>
+        {/* <ManipulateChildren/>
         <Day/>
         <FocusInputField/>
         <Grocery/>
@@ -47,7 +53,7 @@ function App() {
         <Ratings/>
         <UserDetailsForm/>
         <UnControlledForm/>
-        <CustomHook/>
+        <CustomHook/> */}
       </header>
     </div>
   );

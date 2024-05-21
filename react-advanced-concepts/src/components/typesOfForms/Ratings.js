@@ -3,10 +3,12 @@ import { useState } from "react";
 export default function Ratings() {
     const [score,setScore] = useState("10");
     const [comment,setComment] = useState("");
+    let isDisabled;
 
     const handleSubmit = (e) => {
         e.preventDefault();
         if(Number(score) <= 5 && comment.length <= 10){
+            isDisabled = true;
             alert("Please provide a comment");
             return;
         }
@@ -26,7 +28,7 @@ export default function Ratings() {
                             <textarea value={comment} onChange={e=>setComment(e.target.value)}></textarea>
                         </div>
                     </div>
-                    <button type="submit">Submit</button>
+                    <button type="submit" disabled={isDisabled}>Submit</button>
                 </fieldset>
             </form>
         </div>
